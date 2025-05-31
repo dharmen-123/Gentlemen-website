@@ -996,7 +996,6 @@ const { useState, useEffect } = React;
                                         className="product-card"
                                         onClick={() => {
                                             changePage('product');
-                                            // The viewProduct function will be called by the parent component
                                         }}
                                     >
                                         <div className="h-64 overflow-hidden">
@@ -1027,6 +1026,4 @@ const { useState, useEffect } = React;
                 </div>
             );
         }
-        
-        // Render the App
         ReactDOM.render(<App />, document.getElementById('root'));
