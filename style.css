@@ -1,11 +1,9 @@
- @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
-        
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');   
         body {
             font-family: 'Montserrat', sans-serif;
             background-color: #f8f9fa;
             color: #333;
         }
-        
         .hero-section {
             background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
             position: relative;
@@ -95,21 +93,17 @@
             from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
         }
-        
         .animate-fade-in {
             animation: fadeIn 0.8s ease forwards;
         }
-        
         .delay-1 { animation-delay: 0.2s; }
         .delay-2 { animation-delay: 0.4s; }
         .delay-3 { animation-delay: 0.6s; }
-        
         .page-transition {
             opacity: 0;
             transform: translateY(20px);
             transition: all 0.5s ease;
         }
-        
         .page-transition.active {
             opacity: 1;
             transform: translateY(0);
